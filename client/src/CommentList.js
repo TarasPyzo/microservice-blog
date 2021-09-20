@@ -13,6 +13,7 @@ const CommentList = ({ postId, comments }) => {
           <div key={comments.id} style={{ padding: '5px', margin: '10px', border: '1px solid white' }}>
             <div>CommentId: {comments.id}</div>
             <div>Content: {comments.content}</div>
+            <div>Status: {comments.status}</div>
           </div>
         );
       })}
